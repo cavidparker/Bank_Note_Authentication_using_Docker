@@ -4,7 +4,7 @@
 - sudo docker build -t money_api .
 
 # Check Docker images list
-- sudo docker images
+-  sudo docker images
 
 
 
