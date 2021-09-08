@@ -9,10 +9,10 @@
 
 # Docker running list check
 - sudo docker ps
-- 
+
 # Docker running Stop
 - sudo docker stop CONTAINER ID
-- 
+ 
 # Docker run
 - sudo docker run -p 5000:5000 REPOSITORY_NAME
 - sudo docker run REPOSITORY_NAME
