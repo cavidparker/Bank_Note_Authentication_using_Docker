@@ -9,7 +9,10 @@ RUN conda install scikit-learn
 RUN pip install -r requirements.txt
 
 
+# Expose port 
+ENV PORT 8080
+
 
 ENTRYPOINT [ "python" ]
-CMD [ "flask_api_using_flasgger.py" ]
+CMD ["gunicorn", "app:app", "--config=config.py"]
 
