@@ -22,9 +22,13 @@ pickle_in = open("classifier.pkl", "rb")
 classifier = pickle.load(pickle_in)
 
 
-@app.route('/')
-def welcome():
-    return "welcome all"
+@app.route("/")
+def hello_world():
+    name = os.environ.get("NAME", "World")
+    return "Hello {}!".format(name)
+
+
+
 
 @app.route('/predict')
 def predict_note_authentication():
@@ -90,5 +94,5 @@ def predict_note_file():
 
 
 
-if __name__ == '__main__':
-    app.run(host="0.0.0.0", port=config.PORT, debug=config.DEBUG_MODE)
+if __name__ == "__main__":
+    app.run(debug=True, host="0.0.0.0", port=int(os.environ.get("PORT", 8080)))
