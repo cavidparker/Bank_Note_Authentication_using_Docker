@@ -8,8 +8,8 @@ COPY . /app
 RUN conda install scikit-learn
 RUN pip install -r requirements.txt
 
-
+EXPOSE 8080
 
 ENTRYPOINT [ "python" ]
-CMD [ "flask_api_using_flasgger.py" ]
+CMD [ "app.py" ]
 
