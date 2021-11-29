@@ -24,5 +24,5 @@
 - http://172.17.0.2:5000/apidocs
 - http://172.17.0.2:8080/apidocs
 
-
-Reff link : https://towardsdatascience.com/deploy-machine-learning-model-on-google-kubernetes-engine-94daac85108b
+### Deploy Machine Learning Pipeline on Google Kubernetes Engine
+- https://towardsdatascience.com/deploy-machine-learning-model-on-google-kubernetes-engine-94daac85108b
