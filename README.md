@@ -5,7 +5,7 @@
 
 ## Docker Build:
 - sudo docker build -t money_api .
-or
+- or
 - docker build -t your_name .
 
 ## Check Docker images list
