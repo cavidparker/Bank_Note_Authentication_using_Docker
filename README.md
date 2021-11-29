@@ -1,7 +1,12 @@
 # Bank_Note_Autthentication_using_Docker:
 
+## Check your docker version in your computer :
+- docker --version
+
 ## Docker Build:
 - sudo docker build -t money_api .
+or
+- docker build -t your_name .
 
 ## Check Docker images list
 - sudo docker images
@@ -17,3 +22,4 @@
 - sudo docker run -p 5000:5000 REPOSITORY_NAME
 - sudo docker run REPOSITORY_NAME
 - http://172.17.0.2:5000/apidocs
+- http://172.17.0.2:8080/apidocs
