@@ -26,3 +26,4 @@
 
 ### Deploy Machine Learning Pipeline on Google Kubernetes Engine
 - https://towardsdatascience.com/deploy-machine-learning-model-on-google-kubernetes-engine-94daac85108b
+- https://www.youtube.com/watch?v=lAAeJDcoHKY&list=PLZoTAELRMXVNKtpy0U_Mx9N26w8n0hIbs&index=8
