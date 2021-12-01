@@ -17,3 +17,7 @@
 - sudo docker run -p 5000:5000 REPOSITORY_NAME
 - sudo docker run REPOSITORY_NAME
 - http://172.17.0.2:5000/apidocs
+
+
+## use GPU
+- https://www.tensorflow.org/guide/gpu
